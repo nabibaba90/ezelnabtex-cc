@@ -66,7 +66,7 @@ def iyzico():
     }
     iyz_res = session.post(iyzico_url, headers={"User-Agent": headers_get["User-Agent"]}, data=iyzico_data, verify=False)
 
-    yapimci = "💎Yapimci:@Nabi_backend"
+    yapimci = "💎Yapimci:@ozeneceksiniz✅"
 
     if "3-D Secure" in iyz_res.text:
         return f"{cc} {ay} {cvv} -> Kart gecerli live🥳 | {yapimci}"
